@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+        
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Javascript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/50a041663f.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    </head>
+    <body>
+        <div class="col-md-6 col-left left-bar">
+            <img class="logo" src="assets/logo.png"/>
+            <ul class="nav nav-pills nav-justified">
+                <li role="presentation" class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li role="presentation"><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> About Me</a></li>
+                <li role="presentation"><a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Social Media</a></li>
+                <li role="presentation"><a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="col-md-6 col-right body">
+        
+        {{ content }}
+        
+        </div>
+    </body>
+</html>

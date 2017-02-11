@@ -1,0 +1,42 @@
+.left-bar {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(assets/background.jpeg);
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+.logo {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+li {
+    font-family: Shadows Into Light Two;
+}
+
+.logo {
+    margin-top: 15vh;
+    position: relative;
+}
+
+.nav {
+    margin-top: 35px;
+    position: relative;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav li a:hover {
+    color: black;
+}
+
+.body {
+    font-family: Shadows Into Light Two;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}

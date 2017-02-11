@@ -1,5 +1,5 @@
 .left-bar {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(assets/background.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(background.jpeg);
     background-size: 100%;
     background-position: center;
     height: 100vh;

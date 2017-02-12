@@ -3,7 +3,6 @@ markdown: kramdown
 permalink: /404.html
 gems:
  - jekyll-seo-tag
-title: Musyaffaq
 description: This is Musyaffaq's personal website :)
 url: musyaffaq.com
 logo: /assets/logo-black-square.png

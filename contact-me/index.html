@@ -6,7 +6,7 @@ layout: default
 <br/>
 <br/>
 <p>Use the form below to contact me!</p>
-<form>
+<form action="https://formspree.io/a.musyaffaq@gmail.com" method="POST">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
         <input id="text" type="text" class="form-control" name="name" placeholder="Name" required>
@@ -20,5 +20,9 @@ layout: default
         <textarea id="message" class="form-control" name="message" placeholder="Write your message here!" required></textarea>
     </div>
     <br/>
-    <input type="submit" class="btn btn-info" value="Submit Button">
+    <input type="submit" class="btn btn-info" value="Submit">
+    <!-- Edit this later -->
+    <input type="hidden" name="_next" value="//site.io/thanks.html">
+    <input type="hidden" name="_subject" value="Musyaffaq.com have been contacted">
+    <input type="text" name="_gotcha" style="display:none">
 </form>

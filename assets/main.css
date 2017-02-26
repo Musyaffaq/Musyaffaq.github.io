@@ -42,13 +42,12 @@ li {
 }
 
 .social-media {
-    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 .social-icon {
     font-size: 50px;
+    text-align: center;
 }
 
-.well {
-    margin: 0 5px 0 5px;
-}

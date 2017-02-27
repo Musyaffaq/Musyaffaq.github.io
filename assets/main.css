@@ -3,7 +3,7 @@
     background-size: 100%;
     background-position: center;
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .logo {
@@ -37,9 +37,12 @@ li {
 
 .body {
     font-family: Shadows Into Light Two;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    padding-top: 10vh;
+    overflow-y: scroll;
+    height: 100vh;
 }
+
+
 
 .social-media {
     margin: 0 auto;

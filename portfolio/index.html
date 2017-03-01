@@ -6,18 +6,35 @@ layout: default
 <br/>
 <br/>
 <p>Here you can find some of the websites I have created!</p>
-<div class="row">
     
+<div class="row">
     <div class="col-md-6">
-        <div class="thumbnail">
-            <a href="http://musyaffaq.com">
-                <img src="/assets/portfolio/Musyaffaq.jpg" alt="Musyaffaq's Site" style="width:100%">
-                <div class="caption">
-                    <h4>Musyaffaq</h4>
-                    <p>This is my own website!</p>
-                </div>
-            </a>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" id="input" aria-describedby="basic-addon1" onkeyup="searchFunction()" placeholder="Search for a specific one...">
         </div>
     </div>
+</div>
+
+<br/>
+
+<div class="row">
     
+    <ul id="list">
+        
+        <li>
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <a href="http://musyaffaq.com">
+                        <img src="/assets/portfolio/Musyaffaq.jpg" alt="Musyaffaq's Site" style="width:100%">
+                        <div class="caption">
+                            <h4 id="name">Musyaffaq</h4>
+                            <p>This is my own website!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </li>
+        
+    </ul>
 </div>

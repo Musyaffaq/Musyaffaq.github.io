@@ -37,13 +37,12 @@ li {
 
 .body {
     font-family: Shadows Into Light Two;
-    padding-top: 10vh;
+    padding-top: 5vh;
     overflow-y: scroll;
     height: 100vh;
 }
 
-
-
+/* For the Social Media Page */
 .social-media {
     margin: 0 auto;
     display: block;
@@ -54,3 +53,14 @@ li {
     text-align: center;
 }
 
+/* For the Portforlio Page */
+
+#list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li a {
+    text-decoration: none;
+}

@@ -7,7 +7,7 @@ window.onload = function() {
         var item = list.getElementsByTagName("li");
         
         for (i = 0; i < item.length; i++) {
-            x = item[i].getElementsByTagName("h4")[0];
+            x = item[i].getElementsByClassName("caption")[0];
             if (x.innerHTML.toUpperCase().indexOf(input) > -1) {
                 item[i].style.display = "";
             } else {
